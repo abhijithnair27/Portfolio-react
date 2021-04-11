@@ -1,0 +1,23 @@
+.footer {
+  text-align: center;
+  justify-content: center;
+  background-color: #313638;
+  margin-bottom: 0;
+  opacity: 1;
+  color: white;
+}
+
+.footer .fgh {
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.footer a {
+  display: inline-block;
+  padding: 0.6rem;
+}
+.t {
+  padding: 20px;
+  background-color: #444;
+  text-align: center;
+}

@@ -19,10 +19,14 @@
   letter-spacing: 8px;
   margin-bottom: 20px;
 
-  background: white;
+  color: white;
 }
 
 .text_secondary {
+  letter-spacing: 8px;
+  font-size: 4rem;
+  margin-bottom: 20px;
+
   color: #eece1a;
 }
 
@@ -100,6 +104,7 @@
 
 .icons {
   color: white;
+  margin-top: 20px;
 }
 
 .middle {

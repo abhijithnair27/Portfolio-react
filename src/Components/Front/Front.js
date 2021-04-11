@@ -14,9 +14,10 @@ const Front = () => {
     return(
         <>
         <div className="front">
+            <div className="overlay"></div>
             <div className="front_div">
                 <div>
-                    <span class="text_primary">ABHIJITH <span class="text_secondary">NAIR</span></span>
+                    <span class="text_primary">ABHIJITH </span><span class="text_secondary">NAIR</span>
                 </div>
                 <div class="mai">
                 <ul>
@@ -25,16 +26,12 @@ const Front = () => {
                     <li><span class="text2">Entrepreneur</span></li>
                 </ul>
                 </div>
-                <div >
-                    <span className="icons">
-                        <FaTwitter size="35"/>
-                        
-                        <FaFacebook size="35"/>
-                        <FaLinkedin size="35"/>
-
-                        <FaInstagram size="35"/>  
-                        <FaGithub size="35"/>
-                    </span>  
+                <div className="icons">
+                    <FaTwitter size="35"/>
+                    <FaFacebook size="35"/>
+                    <FaLinkedin size="35"/>
+                    <FaInstagram size="35"/>  
+                    <FaGithub size="35"/> 
                 </div>
                 <div className="middle">
                     <div className="mouse"></div>

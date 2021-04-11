@@ -5,6 +5,7 @@ import logo from './me.jpg';
 const About = () => {
     return(
         <div className="about">
+          <div className="aboutt">
 
           <div className="left">
             <img src={logo} alt="myphoto" className="left_image"/>
@@ -37,6 +38,7 @@ const About = () => {
                 <button className="right_button">Resume</button>
 
             </div>
+          </div>
           </div>
             
         </div>

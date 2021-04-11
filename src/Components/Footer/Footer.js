@@ -1,31 +1,30 @@
-const About = () => {
+import React from 'react';
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import './Footer.css';
+
+const Footer = () => {
     return(
         <>
-        <div class="to">
-        <a href="#ho"><span style={{fontSize: "30px"}}>&#8607;</span></a>
-      </div>
-      <div class="fgh">
-        <a href="https://twitter.com/AbhijithNair27">
-          <i class="fa fa-twitter fa-2x"></i>
-        </a>
-        <a href="https://www.facebook.com/abhijith.nair.3150807/">
-          <i class="fa fa-facebook fa-2x"></i>
-        </a>
-        <a href="https://www.instagram.com/abhi.___.13/?hl=en">
-          <i class="fa fa-instagram fa-2x"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/abhijithnair27/">
-          <i class="fa fa-linkedin fa-2x"></i>
-        </a>
-        <a href="https://github.com/abhijithnair27">
-          <i class="fa fa-github fa-2x"></i>
-        </a>
-      </div>
-      <div class="t">
-        Developed by ABHIJITH NAIR &copy; 2020
-      </div>
+        <div className="footer">
+
+          <div className="to">
+          <a href="#ho" style={{textDecoration: "none"}}><span style={{fontSize: "30px", color: "white"}}>&#8607;</span></a>
+          </div>
+          <div className="fgh">
+              <FaTwitter size="35"/>
+                        
+              <FaFacebook size="35"/>
+              <FaLinkedin size="35"/>
+
+              <FaInstagram size="35"/>  
+              <FaGithub size="35"/>
+          </div>
+          <div className="t">
+            Developed by ABHIJITH NAIR &copy; 2020
+          </div>
+        </div>
       </>
     );
 }
 
-export default About;
+export default Footer;

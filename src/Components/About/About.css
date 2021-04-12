@@ -47,12 +47,12 @@
   border: 0;
   background: none;
   display: block;
-
+  text-decoration: none;
   text-align: center;
   border: 2px solid #444;
   padding: 14px 40px;
-  width: 200px;
-  height: 60px;
+  width: 150px;
+  height: 30px;
 
   outline: none;
   color: black;

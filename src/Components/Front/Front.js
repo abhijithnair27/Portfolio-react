@@ -19,19 +19,25 @@ const Front = () => {
                 <div>
                     <span class="text_primary">ABHIJITH </span><span class="text_secondary">NAIR</span>
                 </div>
-                <div class="mai">
-                <ul>
-                    <li><span class="text2">Developer</span></li>
-                    <li><span class="text2">Programmer</span></li>
-                    <li><span class="text2">Entrepreneur</span></li>
-                </ul>
+                <div className="wrapper">
+                <p className="hello">I'm a <span></span></p>
                 </div>
                 <div className="icons">
-                    <FaTwitter size="35"/>
-                    <FaFacebook size="35"/>
-                    <FaLinkedin size="35"/>
-                    <FaInstagram size="35"/>  
-                    <FaGithub size="35"/> 
+                    <a href="https://twitter.com/AbhijithNair27">
+                        <FaTwitter size="35"/>
+                    </a>
+                    <a href="https://www.facebook.com/abhijith.nair.3150807/">
+                        <FaFacebook size="35"/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/abhijithnair27/">
+                        <FaLinkedin size="35"/>                        
+                    </a>
+                    <a href="https://www.instagram.com/abhi.___.13/">
+                        <FaInstagram size="35"/>  
+                    </a>
+                    <a href="https://github.com/abhijithnair27">
+                        <FaGithub size="35"/>                     
+                    </a>                   
                 </div>
                 <div className="middle">
                     <div className="mouse"></div>

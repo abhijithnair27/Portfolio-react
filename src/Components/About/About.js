@@ -35,7 +35,7 @@ const About = () => {
                 </span>
 
               </p>
-                <button className="right_button">Resume</button>
+                <a href="https://drive.google.com/file/d/1T6Ked9AmKiejzHCpHi3j9a97OhRrd-BL/view?usp=sharing" className="right_button">Resume</a>
 
             </div>
           </div>

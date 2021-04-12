@@ -1,0 +1,43 @@
+.projects {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.project {
+  height: 40%;
+  width: 80%;
+  border: 2px solid black;
+  margin-left: 10%;
+  display: flex;
+}
+
+.certificate {
+  height: 40%;
+  width: 80%;
+  margin-top: 30px;
+  border: 2px solid black;
+  margin-left: 10%;
+  display: flex;
+}
+
+.project_para {
+  width: 60%;
+  background: chartreuse;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.project_border {
+  width: 40%;
+  background: #ffffe0;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.font {
+  font-size: 2rem;
+}

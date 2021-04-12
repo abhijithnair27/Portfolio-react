@@ -15,96 +15,29 @@
 
 .text_primary {
   font-size: 4rem;
-
   letter-spacing: 8px;
-  margin-bottom: 20px;
-
   color: white;
 }
 
 .text_secondary {
   letter-spacing: 8px;
   font-size: 4rem;
-  margin-bottom: 20px;
-
   color: #eece1a;
 }
 
-.mai {
-  margin: 0;
-  height: auto;
-  width: auto;
-  height: 45px;
-  position: relative;
-  overflow: hidden;
-}
-
-.mai::before {
-  position: absolute;
-  content: "";
-  height: 100%;
-  width: 100%;
-  top: 0%;
-  left: -100%;
-  background: #444;
-  z-index: 1;
-  animation: animatebefore 2s linear infinite;
-  transition: 0.7s linear;
-  transition-delay: 0.2s;
-}
-
-@keyframes animatebefore {
-  0% {
-    left: -100%;
-    background: #444;
-  }
-
-  100% {
-    left: 100%;
-  }
-}
-
-.mai ul {
-  padding: 0;
-  animation: animate 5s linear infinite;
-}
-
-@keyframes animate {
-  0% {
-    transform: translateY(0px);
-  }
-
-  30% {
-    transform: translateY(0px);
-  }
-
-  40% {
-    transform: translateY(-45px);
-  }
-
-  65% {
-    transform: translateY(-45px);
-  }
-
-  75%,
-  100% {
-    transform: translateY(-90px);
-  }
-}
-
-.mai ul li {
-  height: 45px;
-  letter-spacing: 10px;
-}
-
-.text2 {
-  font-size: 2rem;
-  color: #6ab04c;
-}
-
 .icons {
+  margin-top: -29px;
+  justify-content: space-around;
   color: white;
-  margin-top: 20px;
+}
+.icons a {
+  color: white;
+  display: inline-block;
+  padding: 0.4rem;
+}
+
+.icons a:hover {
+  color: #6ab04c;
 }
 
 .middle {
@@ -144,5 +77,33 @@
   to {
     opacity: 0;
     top: 50px;
+  }
+}
+
+.wrapper {
+  margin-top: -50px;
+  padding: 0;
+  display: flex;
+}
+.hello {
+  font-size: 3rem;
+  color: white;
+}
+
+.hello span::before {
+  color: #6ab04c;
+  content: "";
+  animation: animate infinite 4s;
+}
+
+@keyframes animate {
+  0% {
+    content: "Developer";
+  }
+  70% {
+    content: "Programmer";
+  }
+  100% {
+    content: "Entrepreneur";
   }
 }

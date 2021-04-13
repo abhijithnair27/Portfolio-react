@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
@@ -8,7 +9,7 @@ const Footer = () => {
         <div className="footer">
 
           <div className="to">
-          <a href="/" style={{textDecoration: "none"}}><span style={{fontSize: "30px", color: "white"}}>&#8607;</span></a>
+          <Link to="/" style={{textDecoration: "none"}}><span style={{fontSize: "30px", color: "white"}}>&#8607;</span></Link>
           </div>
           <div className="fgh">
               <a href="https://twitter.com/AbhijithNair27">
@@ -28,7 +29,7 @@ const Footer = () => {
                     </a> 
           </div>
           <div className="t">
-            Developed by ABHIJITH NAIR &copy; 2020
+            Developed by ABHIJITH NAIR 
           </div>
         </div>
       </>

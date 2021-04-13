@@ -8,26 +8,28 @@
 
 .project {
   height: 40%;
-  width: 80%;
+  width: 70%;
   border: 2px solid black;
-  margin-left: 10%;
+  margin-left: 15%;
   display: flex;
 }
 
 .certificate {
   height: 40%;
-  width: 80%;
-  margin-top: 30px;
+  width: 70%;
+  margin-top: 50px;
   border: 2px solid black;
-  margin-left: 10%;
+  margin-left: 15%;
   display: flex;
 }
 
 .project_para {
   width: 60%;
-  background: chartreuse;
   margin-right: 20px;
   margin-left: 20px;
+  align-items: center;
+  padding: 30px;
+  padding-top: 80px;
 }
 
 .project_border {
@@ -36,8 +38,13 @@
   align-items: center;
   text-align: center;
   padding-top: 100px;
+  text-decoration: none;
+  margin: 20px;
 }
 
+.project_border:hover {
+  letter-spacing: 7px;
+}
 .font {
   font-size: 2rem;
 }

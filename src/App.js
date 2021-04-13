@@ -1,22 +1,31 @@
 import './App.css';
-import Front from './Components/Front/Front';
-import Footer from './Components/Footer/Footer';
-import About from './Components/About/About';
-import Contact from './Components/Contact/Contact';
-import Project from './Components/Project/Project';
 
+import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import Main from './Components/Main/Main';
+import Pro from './Components/Pro/Pro';
+import Cert from './Components/Cert/Cert';
+import Navigation from './Components/Navigation/Navigation';
 
 
 function App() {
   return (
-   <>
-    <Front />
-    
-    <About />
-    <Project />
-    <Contact />
-    <Footer />
-   </>
+    <Router>
+      <Navigation />
+      <Switch>
+        <Route exact path="/">
+          <Main />
+        </Route>
+        <Route path="/projects">
+          <Pro />
+        </Route>
+        <Route path="/certificates">
+          <Cert />
+        </Route>
+        <Route path="*">
+          <Main />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

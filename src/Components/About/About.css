@@ -84,5 +84,9 @@
 }
 .left_quote {
   margin-left: 30%;
-  font-size: 2rem;
+  font-size: 20px;
+}
+.left_quote span {
+  margin-left: 65%;
+  font-size: 20px;
 }

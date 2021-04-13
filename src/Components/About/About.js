@@ -10,9 +10,7 @@ const About = () => {
           <div className="left">
             <img src={logo} alt="myphoto" className="left_image"/>
             <p className="left_name">Abhijith Nair</p>
-            <p className="left_quote">
-               Success Is So Much Happiness!!
-            </p>
+            
           </div>
 
           <div className="right">

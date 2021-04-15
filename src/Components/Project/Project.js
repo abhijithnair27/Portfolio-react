@@ -14,7 +14,7 @@ This are all the Projects on which I have been working on till date. All these p
                     </Link>
                 </div>
                 <div className="certificate">
-                    <Link to="/certificates" className="project_border">
+                    <Link to="/certificate" className="project_border">
                     <span className="font">CERTIFICATES </span> 
                     </Link>
                     <p className="project_para">

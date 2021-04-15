@@ -1,0 +1,13 @@
+.cert_main {
+  width: 100%;
+}
+.cert {
+  width: 80%;
+  display: flex;
+  flex: 40px;
+  margin-left: 10%;
+}
+
+button {
+  color: black;
+}

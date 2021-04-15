@@ -18,7 +18,7 @@ function App() {
         <Route path="/projects">
           <Pro />
         </Route>
-        <Route path="/certificates">
+        <Route path="/certificate">
           <Cert />
         </Route>
         <Route path="*">

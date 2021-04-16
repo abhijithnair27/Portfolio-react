@@ -16,13 +16,13 @@ const Cert = () => {
         <>
             <div className="cert_main">
                 <div className="cert">
-                    <Card image={first} text="Kayaks crowd Three Sister Springs, where people and manatees maintain controversial coexistence"/>
-                    <Card image={second} text="Kayaks crowd Three Sister Springs, where people and manatees maintain controversial coexistence"/>
-                    <Card image={third} text="Kayaks crowd Three Sister Springs, where people and manatees maintain controversial coexistence"/>
+                    <Card image={first} src="https://www.freecodecamp.org/certification/abhijith27/responsive-web-design"  text="Learn Data structures and algorithm in javascript"/>
+                    <Card image={second} src="https://coursera.org/share/5ea4ee48de88708ba29c4efe20f1cba4" text="Learn about front end development using javascript library React"/>
+                    <Card image={third} src="https://coursera.org/share/e35311585fc6af3513f85db023c5cd9f" text="Learn javascript ES6 basics"/>
                 </div>
                 <div className="cert">
-                    <Card image={fourth} text="Kayaks crowd Three Sister Springs, where people and manatees maintain controversial coexistence"/>
-                    <Card image={fifth} text="Kayaks crowd Three Sister Springs, where people and manatees maintain controversial coexistence"/>
+                    <Card image={fourth} src="https://coursera.org/share/75bedb7684fbcf7e2bf8de1827063d93" text="learn machine learning"/>
+                    <Card image={fifth} src='https://www.freecodecamp.org/certification/abhijith27/javascript-algorithms-and-data-structures' text="Learn how to make websites responsive"/>
                    
                 </div>
                 <Link to="/" style={{textDecoration: "none"}}><button>Go to home page</button></Link>

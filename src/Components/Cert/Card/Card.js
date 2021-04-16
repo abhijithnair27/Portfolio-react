@@ -11,37 +11,38 @@ const CardHeader = ({image}) => {
     );
 }
 
-const Button = () => {
+const Button = ({src}) => {
  
     return (
-      <button className="button button-primary">
-        <i className="fa fa-chevron-right"></i> Find out more
-      </button>
+      <a href={src} style={{textDecoration: "none"}}>
+        <button href={src} className="button button-primary">
+          <i className="fa fa-chevron-right"></i> Learn more
+        </button>
+      </a>
     );
   
 }
 
-const CardBody = ({ text}) => {
+const CardBody = ({src , text}) => {
   
     return (
       <div className="card-body">
-        <p className="date">March 20 2015</p>
         
         
         
         <p className="body-content">{text}</p>
         
-        <Button />
+        <Button src={src} />
       </div>
     )
   
 }
 
-const Card = ({image, text}) => {
+const Card = ({image, src,  text}) => {
     return (
       <article className="card">
         <CardHeader image={image}/>
-        <CardBody text={text}/>
+        <CardBody src={src} text={text}/>
       </article>
     );
 }

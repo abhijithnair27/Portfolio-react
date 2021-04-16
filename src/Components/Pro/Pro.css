@@ -11,3 +11,10 @@
 button {
   color: black;
 }
+
+@media (max-width: 750px) {
+  .cert {
+    display: flex;
+    flex-direction: column;
+  }
+}

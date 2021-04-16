@@ -14,7 +14,7 @@ const Navigation = () => {
             <div className="nav_sub" id={ post ? "hidden" : ""}>       
                 <Link to="/" onClick={submit}>Home</Link>
                 <Link to="/projects" onClick={submit}>Projects</Link>
-                <Link to="/certificates" onClick={submit}>Certificates</Link>
+                <Link to="/certificate" onClick={submit}>Certificates</Link>
                 <a href="https://twitter.com/AbhijithNair27">Twitter</a>
                 <a href="https://www.linkedin.com/in/abhijithnair27/">LinkedIn</a>
                 <a href="https://github.com/abhijithnair27">GitHub</a>

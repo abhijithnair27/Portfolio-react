@@ -73,10 +73,10 @@
   .project_para {
     width: 80%;
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 2px;
     align-items: center;
     padding: 30px;
-    padding-top: 80px;
+    padding-top: 10px;
   }
   .project_border {
     width: 90%;

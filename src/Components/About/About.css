@@ -113,6 +113,10 @@
 }
 
 @media (max-width: 750px) {
+  .right_body {
+    width: 80%;
+    margin-left: 50px;
+  }
   .aboutt {
     display: flex;
     flex-direction: column;

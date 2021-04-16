@@ -117,21 +117,28 @@
 
 @media (max-width: 500px) {
   .text_primary {
-    font-size: 30px;
+    font-size: 35px;
     letter-spacing: 4px;
   }
 
   .text_secondary {
     letter-spacing: 4px;
-    font-size: 30px;
+    font-size: 35px;
   }
   .hello {
-    font-size: 20px;
+    font-size: 25px;
     color: white;
   }
   .wrapper {
     margin-top: -20px;
     padding: 0;
     display: flex;
+  }
+  .si {
+    height: 20px;
+    width: 20px;
+  }
+  .icons {
+    padding-top: 20px;
   }
 }

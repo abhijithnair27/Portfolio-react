@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer">
 
           <div className="to">
-          <Link to="/" style={{textDecoration: "none"}}><span style={{fontSize: "30px", color: "white"}}>&#8607;</span></Link>
+          <a href="#to" style={{textDecoration: "none"}}><span style={{fontSize: "30px", color: "white"}}>&#8607;</span></a>
           </div>
           <div className="fgh">
               <a href="https://twitter.com/AbhijithNair27">

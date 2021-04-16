@@ -6,8 +6,8 @@ const CardHeader = ({image}) => {
         backgroundImage: 'url(' + image + ')',
     };
     return (
-      <header style={style} id={image} className="card-header">
-      </header>
+      <img src={image} className="card-header" />
+    
     );
 }
 
@@ -37,11 +37,11 @@ const CardBody = ({ text}) => {
   
 }
 
-const Card = () => {
+const Card = ({image, text}) => {
     return (
       <article className="card">
-        <CardHeader image={'https://source.unsplash.com/user/erondu/600x400'}/>
-        <CardBody text={'Kayaks crowd Three Sister Springs, where people and manatees maintain controversial coexistence'}/>
+        <CardHeader image={image}/>
+        <CardBody text={text}/>
       </article>
     );
 }

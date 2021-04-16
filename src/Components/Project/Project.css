@@ -48,3 +48,40 @@
 .font {
   font-size: 2rem;
 }
+
+@media (max-width: 850px) {
+  .project_para {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 750px) {
+  .projects {
+    height: auto;
+    margin-bottom: 50px;
+  }
+  .project {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .certificate {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .project_para {
+    width: 80%;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: center;
+    padding: 30px;
+    padding-top: 80px;
+  }
+  .project_border {
+    width: 90%;
+    padding-bottom: 20%;
+  }
+  .font {
+  }
+}

@@ -74,3 +74,9 @@ button {
 button:hover {
   background: #2ecc71;
 }
+
+@media (max-width: 500px) {
+  .box {
+    width: 250px;
+  }
+}

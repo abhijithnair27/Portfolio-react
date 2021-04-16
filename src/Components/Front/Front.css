@@ -107,3 +107,31 @@
     content: "Entrepreneur";
   }
 }
+
+@media (max-width: 750px) {
+  .front_div {
+    padding-top: 40px;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .text_primary {
+    font-size: 30px;
+    letter-spacing: 4px;
+  }
+
+  .text_secondary {
+    letter-spacing: 4px;
+    font-size: 30px;
+  }
+  .hello {
+    font-size: 20px;
+    color: white;
+  }
+  .wrapper {
+    margin-top: -20px;
+    padding: 0;
+    display: flex;
+  }
+}
